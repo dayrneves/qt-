@@ -1,9 +1,11 @@
 import QtQuick 2.0
+import QtQuick.Window 2.15
 
-Rectangle {
+Window {
     id: page
     width: 320; height: 480
     color: "lightgray"
+    visible: true
 
     Text {
         id: helloText
